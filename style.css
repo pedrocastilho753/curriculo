@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+body {
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #3F403F;
+    
+    
+}
+
+.cabecalho {
+    background-color: #6b85fd;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.cabecalho_titulo {
+    color: #3F403F;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.cabecalho_opcoes a{
+    font-family: 'Open Sans', sans-serif;
+    color: #3F403F;
+    font-size: medium;
+}
+.cabecalho_opcoes{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    position: relative;
+    right: 100px;
+}
+.cabecalho_opcoes li{
+    margin: 0px 10px;
+    color: #000000;
+    
+}
+#conteudo{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.conteudo_funcoes h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+.conteudo_funcoes p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-bottom: 15px;
+    font-size: medium;
+}
+.conteudo_funcoes h2{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    color: white;
+    font-size: larger;
+
+}
+.conteudo_funcoes strong{
+    color:#6b85fd;
+}
+.icons_box{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.icon{
+    width: 40px;
+}
+.foto_perfil{
+    width: 150px;
+    margin-bottom: 20px;
+    box-shadow: 10px 5px 5px rgb(29, 29, 29);
+    border-radius: 50%;
+    
+}
+.footer{
+    background-color:#6b85fd;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: #3F403F;
+    font-size: 23px;
+    justify-content: center;
+
+}
